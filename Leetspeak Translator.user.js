@@ -13,7 +13,7 @@
 
     function translateToLeet(text) {
         const leetMap = {
-            'A': '@',
+            'A': '4',
             'E': '3',
             'I': '1',
             'O': '0',
@@ -31,7 +31,7 @@
             if (leetMap.hasOwnProperty(char)) {
                 translatedText += leetMap[char];
             } else {
-                translatedText += text[i];
+                translatedText += char;
             }
         }
 
