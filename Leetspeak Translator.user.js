@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      1.0
 // @description  Translates every website to Leetspeak (in all caps).
-// @author       Your Name
+// @author       cemreefe
 // @match        *://*/*
 // @grant        none
 // ==/UserScript==
